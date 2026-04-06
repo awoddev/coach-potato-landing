@@ -212,10 +212,10 @@ export default function HomePage() {
             <div className="use-case">
               <div className="use-case-icon" aria-hidden="true">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="4" y="12" width="5" height="4" rx="1" stroke="currentColor" strokeWidth="1.8" />
-                  <rect x="19" y="12" width="5" height="4" rx="1" stroke="currentColor" strokeWidth="1.8" />
-                  <path d="M9 14h10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                  <path d="M2 12v4M26 12v4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <path d="M14 9v10" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                  <rect x="8" y="11" width="3" height="6" rx="1" stroke="currentColor" strokeWidth="1.6" />
+                  <rect x="17" y="11" width="3" height="6" rx="1" stroke="currentColor" strokeWidth="1.6" />
+                  <path d="M5.5 12.5v3M22.5 12.5v3" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                 </svg>
               </div>
               <h3>Gym regulars</h3>
