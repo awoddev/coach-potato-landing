@@ -1,31 +1,29 @@
+import PricingSection from "@/components/PricingSection";
+import WaitlistForm from "@/components/WaitlistForm";
+
 export default function HomePage() {
   return (
     <>
       {/* ── Hero ──────────────────────────────────────────── */}
       <section className="hero">
         <div className="container">
-          <div className="hero-tag">AI-Powered Workout Generation</div>
+          <div className="hero-tag">AI That Writes Workouts, Not Just Adjusts Them</div>
           <h1 className="hero-title">
             Stop overthinking.
             <br />
             <em>Start training.</em>
           </h1>
           <p className="hero-sub">
-            Coach Potato builds your full workout plan in seconds — personalised
-            to your goals, equipment, and schedule. No guesswork, no excuses.
+            Most fitness apps adapt the same templates. Coach Potato generates
+            your workout from scratch — built for your goals, equipment, and
+            schedule. Every plan is new.
           </p>
-          <div className="hero-actions">
-            <a
-              href={process.env.NEXT_PUBLIC_APP_URL || "#"}
-              className="btn-primary"
-            >
-              Get the App
-            </a>
+          <WaitlistForm id="waitlist" />
+          <div className="hero-actions" style={{ marginTop: "16px" }}>
             <a href="#how" className="btn-ghost">
               See how it works
             </a>
           </div>
-          <p className="hero-note">Free to start — no credit card required.</p>
         </div>
       </section>
 
@@ -53,9 +51,10 @@ export default function HomePage() {
               <div className="step-num">2</div>
               <h3>AI builds your plan</h3>
               <p>
-                Our model generates a complete, structured workout tailored
-                exactly to your inputs — not a recycled template, but something
-                built specifically for you.
+                Our AI writes a complete, structured workout from scratch — not
+                selected from a database, not adapted from a template. Every
+                exercise, set, and rest period is chosen specifically for your
+                session.
               </p>
             </div>
             <div className="step">
@@ -91,9 +90,10 @@ export default function HomePage() {
               <div className="feature-body">
                 <h3>Personalised workout plans</h3>
                 <p>
-                  Every plan is generated from scratch based on your profile, not
-                  recycled templates. Your goals, your equipment, your schedule
-                  — nothing generic.
+                  Other apps pick exercises from a list and adjust the weights.
+                  Coach Potato writes your entire programme from scratch —
+                  structure, progression, and exercise selection — all generated
+                  for your specific session.
                 </p>
               </div>
             </li>
@@ -245,86 +245,7 @@ export default function HomePage() {
       </section>
 
       {/* ── Pricing ───────────────────────────────────────── */}
-      <section id="pricing" className="site-section">
-        <div className="container">
-          <p className="section-label">Pricing</p>
-          <h2 className="section-title">Start free, upgrade when you&apos;re ready</h2>
-          <p className="section-sub">
-            The core workout generator is free forever. Upgrade to Pro or
-            Business to unlock the full experience.
-          </p>
-
-          <div className="pricing-grid">
-            <div className="pricing-card">
-              <p className="pricing-tier">Free</p>
-              <p className="pricing-price">
-                $0<span> / month</span>
-              </p>
-              <p className="pricing-desc">
-                Get started with no commitment. Perfect for trying Coach Potato.
-              </p>
-              <ul className="pricing-features">
-                <li>5 workout generations per month</li>
-                <li>Simple mode</li>
-                <li>Standard Coffee Dark theme</li>
-                <li>Session logging</li>
-              </ul>
-              <a
-                href={process.env.NEXT_PUBLIC_APP_URL || "#"}
-                className="pricing-btn"
-              >
-                Get started free
-              </a>
-            </div>
-
-            <div className="pricing-card featured">
-              <p className="pricing-tier">Pro</p>
-              <p className="pricing-price">
-                $7<span> / month</span>
-              </p>
-              <p className="pricing-desc">
-                For anyone who trains seriously and wants their plans to match.
-              </p>
-              <ul className="pricing-features">
-                <li>Unlimited workout generations</li>
-                <li>Simple &amp; advanced modes</li>
-                <li>All 4 themes</li>
-                <li>Full week planning</li>
-                <li>Session tracking &amp; history</li>
-              </ul>
-              <a
-                href={process.env.NEXT_PUBLIC_APP_URL || "#"}
-                className="pricing-btn"
-              >
-                Start Pro
-              </a>
-            </div>
-
-            <div className="pricing-card">
-              <p className="pricing-tier">Business</p>
-              <p className="pricing-price">
-                $19<span> / seat / month</span>
-              </p>
-              <p className="pricing-desc">
-                Everything in Pro, built for teams and studios with shared
-                profiles.
-              </p>
-              <ul className="pricing-features">
-                <li>Everything in Pro</li>
-                <li>Shared team profiles</li>
-                <li>Team progress overview</li>
-                <li>Priority support</li>
-              </ul>
-              <a
-                href={process.env.NEXT_PUBLIC_APP_URL || "#"}
-                className="pricing-btn"
-              >
-                Contact us
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <PricingSection />
 
       {/* ── FAQ ───────────────────────────────────────────── */}
       <section id="faq" className="site-section">
@@ -407,6 +328,50 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ── About ────────────────────────────────────────── */}
+      <section className="site-section">
+        <div className="container">
+          <div className="about-block">
+            <p className="section-label">The story</p>
+            <h2 className="section-title">Built by a coach, not a startup</h2>
+            <div className="about-body">
+              <p>
+                Coach Potato was built by a{" "}
+                <strong>CrossFit Level 1 Trainer</strong> with a background
+                spanning{" "}
+                <strong>
+                  calisthenics, gymnastics, judo, boxing, Muay Thai, kickboxing,
+                  and grappling
+                </strong>
+                . Years of training across disciplines — and working with
+                coaches in each — revealed a pattern: great programming follows
+                the same principles regardless of the sport, but no app was
+                applying them properly.
+              </p>
+              <p style={{ marginTop: "16px" }}>
+                The generation engine behind Coach Potato is informed by{" "}
+                <strong>evidence-based sports science</strong> and refined
+                through testing with{" "}
+                <strong>competitive athletes</strong> across combat sports,
+                functional fitness, and strength training. Every workout follows
+                a structured approach — warm-up, preparation, main work,
+                conditioning — because that is how real coaches programme. The
+                result is an app that generates workouts with the thought and
+                structure of a trained coach, not just an algorithm shuffling
+                exercises.
+              </p>
+            </div>
+            <div className="about-credentials">
+              <span>CrossFit Trainer</span>
+              <span>Calisthenics &amp; Gymnastics</span>
+              <span>Combat Sports</span>
+              <span>Sports Science</span>
+              <span>Athlete-Tested</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* ── CTA Banner ────────────────────────────────────── */}
       <section className="site-section">
         <div className="container">
@@ -414,15 +379,10 @@ export default function HomePage() {
             <p className="section-label">Get started</p>
             <h2 className="section-title">Ready to train smarter?</h2>
             <p className="section-sub">
-              Join thousands building better habits with AI-generated workouts.
-              It&apos;s free to start — no card needed.
+              Be the first to know when Coach Potato launches. Join the
+              waitlist — no spam, just a launch notification.
             </p>
-            <a
-              href={process.env.NEXT_PUBLIC_APP_URL || "#"}
-              className="btn-primary"
-            >
-              Get the App
-            </a>
+            <WaitlistForm />
           </div>
         </div>
       </section>

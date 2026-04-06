@@ -26,11 +26,8 @@ export default function Header() {
         </nav>
 
         <div className="nav-cta">
-          <a
-            href={process.env.NEXT_PUBLIC_APP_URL || "#"}
-            className="btn-primary"
-          >
-            Get the App
+          <a href="#waitlist" className="btn-primary">
+            Join the Waitlist
           </a>
         </div>
       </div>

@@ -8,7 +8,7 @@ export default function Footer() {
           <a href="#">Privacy</a>
           <a href="#">Terms</a>
           <a href="mailto:hello@coachpotato.app">Contact</a>
-          <a href={process.env.NEXT_PUBLIC_APP_URL || "#"}>Open App</a>
+          <a href="#waitlist">Join Waitlist</a>
         </nav>
 
         <span className="footer-copy">© {new Date().getFullYear()} Coach Potato</span>
