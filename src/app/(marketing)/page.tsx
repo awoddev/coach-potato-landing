@@ -197,8 +197,8 @@ export default function HomePage() {
             <div className="use-case">
               <div className="use-case-icon" aria-hidden="true">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7 21V14a7 7 0 1 1 14 0v7" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                  <path d="M4 21h20" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <circle cx="8" cy="8" r="2.5" stroke="currentColor" strokeWidth="1.8" />
+                  <path d="M6 13h16M6 13l1 8M22 13l-1 8" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
               </div>
               <h3>Home warriors</h3>
@@ -212,10 +212,10 @@ export default function HomePage() {
             <div className="use-case">
               <div className="use-case-icon" aria-hidden="true">
                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="3" y="11" width="4" height="8" rx="1.5" stroke="currentColor" strokeWidth="1.8" />
-                  <rect x="21" y="11" width="4" height="8" rx="1.5" stroke="currentColor" strokeWidth="1.8" />
-                  <path d="M7 15h14" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                  <path d="M11 9v12M17 9v12" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <rect x="4" y="12" width="5" height="4" rx="1" stroke="currentColor" strokeWidth="1.8" />
+                  <rect x="19" y="12" width="5" height="4" rx="1" stroke="currentColor" strokeWidth="1.8" />
+                  <path d="M9 14h10" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
+                  <path d="M2 12v4M26 12v4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                 </svg>
               </div>
               <h3>Gym regulars</h3>
