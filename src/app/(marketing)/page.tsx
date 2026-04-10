@@ -14,9 +14,8 @@ export default function HomePage() {
             <em>Start training.</em>
           </h1>
           <p className="hero-sub">
-            Most fitness apps adapt the same templates. Coach Potato generates
-            your workout from scratch — built for your goals, equipment, and
-            schedule. Every plan is new.
+            Coach Potato generates your entire workout from scratch — built
+            for your goals, equipment, and schedule. Every plan is unique.
           </p>
           <WaitlistForm id="waitlist" />
           <div className="hero-actions" style={{ marginTop: "16px" }}>
@@ -51,10 +50,9 @@ export default function HomePage() {
               <div className="step-num">2</div>
               <h3>AI builds your plan</h3>
               <p>
-                Our AI writes a complete, structured workout from scratch — not
-                selected from a database, not adapted from a template. Every
-                exercise, set, and rest period is chosen specifically for your
-                session.
+                Our AI writes a complete, structured workout from scratch.
+                Every exercise, set, and rest period is chosen specifically
+                for your session.
               </p>
             </div>
             <div className="step">
@@ -90,10 +88,9 @@ export default function HomePage() {
               <div className="feature-body">
                 <h3>Personalised workout plans</h3>
                 <p>
-                  Other apps pick exercises from a list and adjust the weights.
-                  Coach Potato writes your entire programme from scratch —
-                  structure, progression, and exercise selection — all generated
-                  for your specific session.
+                  Every programme is written from scratch — structure,
+                  progression, and exercise selection — all generated for your
+                  specific session. No two workouts are the same.
                 </p>
               </div>
             </li>
@@ -353,12 +350,10 @@ export default function HomePage() {
                 <strong>evidence-based sports science</strong> and refined
                 through testing with{" "}
                 <strong>competitive athletes</strong> across combat sports,
-                functional fitness, and strength training. Every workout follows
-                a structured approach — warm-up, preparation, main work,
-                conditioning — because that is how real coaches programme. The
-                result is an app that generates workouts with the thought and
-                structure of a trained coach, not just an algorithm shuffling
-                exercises.
+                functional fitness, and strength training. Every workout is
+                built with the thought and structure of a real coaching session.
+                The result is an app that programmes like a trained coach, not
+                just a tool.
               </p>
             </div>
             <div className="about-credentials">
