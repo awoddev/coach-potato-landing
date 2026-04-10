@@ -41,9 +41,8 @@ export default function HomePage() {
               <div className="step-num">1</div>
               <h3>Tell us about yourself</h3>
               <p>
-                Set your fitness level, available equipment, and how long you
-                have. Simple mode gets you started in seconds; advanced mode
-                gives you full control.
+                Share a few details about yourself and your training
+                preferences. Coach Potato takes it from there.
               </p>
             </div>
             <div className="step">
@@ -103,11 +102,11 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="feature-body">
-                <h3>Simple &amp; advanced modes</h3>
+                <h3>As much control as you want</h3>
                 <p>
-                  Quick plan for a quick session, or full advanced controls for
-                  serious athletes. Dial in intensity, volume, rest times, and
-                  muscle focus — only when you want to.
+                  Get a workout in seconds with minimal input, or fine-tune
+                  your preferences for a more tailored result. You decide how
+                  hands-on you want to be.
                 </p>
               </div>
             </li>
@@ -122,9 +121,8 @@ export default function HomePage() {
               <div className="feature-body">
                 <h3>Full week planning</h3>
                 <p>
-                  Generate a structured week of workouts in one tap, complete
-                  with built-in rest days and a sensible progression from session
-                  to session.
+                  Generate an entire week of training in one go. Each day is
+                  structured and balanced so you can just show up and train.
                 </p>
               </div>
             </li>
@@ -137,11 +135,11 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="feature-body">
-                <h3>Equipment-aware generation</h3>
+                <h3>Works wherever you train</h3>
                 <p>
-                  Whether you&apos;re in a fully equipped gym or your living room,
-                  Coach Potato only suggests exercises you can actually do. No
-                  wasted slots, no substitution guesswork.
+                  Full gym, home setup, or just a park bench — Coach Potato
+                  generates workouts that match your actual situation. No
+                  irrelevant exercises.
                 </p>
               </div>
             </li>
@@ -200,9 +198,9 @@ export default function HomePage() {
               </div>
               <h3>Home warriors</h3>
               <p>
-                No gym, no problem. Tell Coach Potato you have a mat and 30
-                minutes — it builds a full bodyweight session that actually
-                challenges you.
+                No gym, no problem. Coach Potato builds sessions that work
+                with whatever you have — even if that&apos;s just your bodyweight
+                and a bit of space.
               </p>
             </div>
 
@@ -232,9 +230,9 @@ export default function HomePage() {
               </div>
               <h3>Busy people</h3>
               <p>
-                15-minute express sessions or full hour programmes — your
-                schedule drives the plan. Stop letting time pressure kill your
-                training consistency.
+                Short on time or ready for a full session — Coach Potato
+                fits your life, not the other way around. Stay consistent no
+                matter how packed your day is.
               </p>
             </div>
           </div>
@@ -274,17 +272,16 @@ export default function HomePage() {
             <details>
               <summary>Can I customise workout intensity?</summary>
               <div className="faq-answer">
-                In advanced mode you can set exact intensity, volume, rest
-                times, session duration, and muscle focus. Simple mode handles
-                all of this automatically based on your fitness level.
+                Yes. You can keep it simple and let Coach Potato handle
+                everything, or adjust your preferences to get exactly the
+                kind of session you want.
               </div>
             </details>
 
             <details>
               <summary>Does it work on iOS and Android?</summary>
               <div className="faq-answer">
-                Yes. Coach Potato is a cross-platform mobile app built with
-                React Native, available on both iOS and Android.
+                Yes. Coach Potato is available on both iOS and Android.
               </div>
             </details>
 
